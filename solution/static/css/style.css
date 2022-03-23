@@ -1,0 +1,18 @@
+form.login_form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
+    background-color: #FFEFD5;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+div.tests_results {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
