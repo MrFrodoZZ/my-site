@@ -8,10 +8,12 @@
         <ol>
             <li>{{ item }}</li>
         </ol>
-    {% else %}
+    {% elif rend == "ul" %}
         <ul>
             <li>{{ item }}</li>
         </ul>
+    {% else %}
+        <h4>Неверный параметр!</h4>
     {% endif %}
 {% endfor %}
 
